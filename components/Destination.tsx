@@ -19,12 +19,6 @@ const destinationUrls = {
   'Pyramids of Giza': 'https://maps.app.goo.gl/VGoMEW1Upq9YTyJJA',
 };
 
-const handleImageClick = (place: string) => {
-  const url = destinationUrls[place];
-  if (url) {
-    window.open(url, '_blank');
-  }
-};
 
 
 const Destination = () => {
