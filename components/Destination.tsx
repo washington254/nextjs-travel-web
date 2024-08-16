@@ -140,7 +140,7 @@ const DestinationCard = ({ img, place, country, price, rating, url }: Destinatio
       <div className='h-1/3 px-6'>
         <div className='place-price flex justify-between'>
           <p className='font-bold text-lg w-1/2'>{place}</p>
-          <p className='font-bold text-lg'>{price}</p>
+          <p className='font-bold text-lg md:flex hidden'>{price}</p>
         </div>
         <p className='mt-3'>{country}</p>
         <div className='mt-6 flex gap-1 items-center'>
